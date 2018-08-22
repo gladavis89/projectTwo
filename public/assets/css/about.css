@@ -1,0 +1,46 @@
+body {
+    height: 100%;
+    background: linear-gradient(0deg, #dbdbdb, #416b92 70%) no-repeat;
+    font-family: "Calibri", "Roboto", sans-serif;
+  }
+
+
+  /* =============== HEADER ============== */
+  .header-div {
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+  }
+
+  .about-h1 {
+    font-size: 58px;
+    margin-bottom: 10px;
+  }
+
+  .header-row {
+      margin-top: 30px;
+      margin-bottom: 50px;
+  }
+
+  .header-row h1{
+    text-shadow: 1px 1px #000000;
+}
+
+  /* ==================== MAIN SECTION PICS N BIOS ==================== */
+.col1 {
+    margin-top: 30px;
+    border-bottom: 1px solid rgb(77, 76, 76);
+    height: 200px;
+}
+
+
+
+
+/* =============== FOOTER  ============= */
+
+.about-ft {
+    margin-top: 150px;
+}
+
+.ft-span {
+    margin-left: 590px;
+}

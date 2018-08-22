@@ -30,16 +30,18 @@
             <br>
             <!-- Sidebar Links -->
             <ul class="list-unstyled components">
-                <li id="menuBar" class="active"><a href="#">About</a></li>
+                <li class="li-side-bar menu-items" class="active"><a href="#" style="color: black; font-family: 'Kaushan Script'">About</a></li>
                 <!-- <li><a href="#">About</a></li> -->
-                <li>
+                <li class="menu-items">
                     <!-- Link with dropdown items -->
-                    <li id="menuBar"><a href="#">Contact</a></li>
-                    <a id="menuBar" href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">Topics</a>
+                    <a id="" href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" style="color: black; font-family: 'Kaushan Script'">Topics</a>
                     <ul class="collapse list-unstyled" id="homeSubmenu">
-                        <li id="menuBar"><a href="#">Top 1</a></li>
-                        <li id="menuBar"><a href="#">Top 2</a></li>
-                        <li id="menuBar"><a href="#">Top 3</a></li>
+                        <li class="menu-li"><a href="#" style="color: black; font-family: 'Kaushan Script'">Top 1</a></li>
+                        <li class="menu-li"><a href="#" style="color: black; font-family: 'Kaushan Script'">Top 2</a></li>
+                        <li class="menu-li"><a href="#" style="color: black; font-family: 'Kaushan Script'">Top 3</a></li>
+                        <li class="menu-li"><a href="#" style="color: black; font-family: 'Kaushan Script'">Top 1</a></li>
+                        <li class="menu-li"><a href="#" style="color: black; font-family: 'Kaushan Script'">Top 2</a></li>
+                        <li class="menu-li"><a href="#" style="color: black; font-family: 'Kaushan Script'">Top 3</a></li>
                     </ul>
             </ul>
         </nav>
@@ -65,10 +67,7 @@
 
         <div class="chat_window">
             <div class="top_menu">
-                <div class="buttons">
-                    <div class="button close"></div>
-                </div>
-                <div class="title">Open Room Chat</div>
+                <div class="mainTitle">Open Room Chat</div>
             </div>
             <ul class="messages"></ul>
             <div class="bottom_wrapper clearfix">
@@ -89,9 +88,12 @@
                 </div>
             </li>
         </div>
+    </div>
+
+            <footer> &copy 2018 Open Room</footer>
 
 
-
+        
         <!-- Message box -->
         <!-- <div class="container" id="chat-box">a</div> -->
 
@@ -99,8 +101,7 @@
         <!-- Where all the messages get created -->
         <!-- <div class="row" id="output"></div> -->
         <!-- Shows if a user is typing -->
-        <!-- <div id='feedback'></div>
-  </div> -->
+        <!-- <div id='feedback'></div> -->
 
         <!-- Placeholder for a username. -->
         <!-- <input id="name" type="text" placeholder='Your Name' /> -->
@@ -129,6 +130,9 @@
             crossorigin="anonymous"></script>
 
         <script type="text/javascript">
+
+
+        
             (function () {
                 var Message;
                 Message = function (arg) {
@@ -189,6 +193,8 @@
 
 
 
+
+//SIDE BAR FUNCTIONALITY
             $(document).ready(function () {
                 $('#sidebarCollapse').on('click', function () {
                     $('#sidebar').toggleClass('active');
